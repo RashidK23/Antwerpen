@@ -2,6 +2,7 @@
 *
 {
  font-family: 'Times New Roman', Times, serif;
+ margin: 0;
 }
 
 
@@ -14,23 +15,30 @@ body
 div.container
 {
  box-sizing: border-box;
+ 
 }
 
 div.header
 {
-
+  border-bottom: 5px white solid;
+  position: fixed;
+ width: 100%;
+    
 }
 div.header ul
 {
    background-color: black;
-   padding: 5px;
+   padding: 8px;
    text-align: right;
+  
+  
 }
 
 div.header ul li
 {
     display: inline-block;
     padding: 5px;
+    margin-right: 10px;
   
 }
 
@@ -43,15 +51,16 @@ div.header ul li a
 div.header ul li a:hover
 {
     color: lightgray;
-    border-bottom:white 500px;
+    border-bottom:white solid 2px;
     
 }
 
-div.header img
+img
 {
     width: 100%;
-    height: 800px;
+    height: 890px;
     top: 0;
+   
 }
 
 
@@ -60,6 +69,13 @@ div.inhoud
 {
 
 }
+
+div.inhoud h1
+{
+    top: 10%;
+   right: 40%;
+}
+
 
 div.footer
 {
@@ -70,4 +86,7 @@ div.footer
     color: white;
     width: 100%;
     text-align: center;
+    padding: 8px;
+    border-top: 5px white solid;
+
 }
