@@ -11,17 +11,39 @@ body
 
 div.container
 {
-
+ box-sizing: border-box;
 }
 
 div.header
 {
 
 }
+div.header ul
+{
+   background-color: black;
+   color: white;
+   padding: 5px;
+   text-align: right;
+}
+
+div.header ul li
+{
+    display: inline-block;
+    padding: 5px;
+  
+}
+div.header ul li:hover
+{
+    color: lightgray;
+    border-bottom:white 500px;
+
+}
+
 div.header img
 {
     width: 100%;
-    height: 600px;
+    height: 800px;
+    top: 0;
 }
 
 
@@ -33,5 +55,11 @@ div.inhoud
 
 div.footer
 {
-
+    clear: both;
+    bottom: 0;
+    position: fixed;
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
 }
