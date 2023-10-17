@@ -3,6 +3,7 @@
 {
  font-family: 'Times New Roman', Times, serif;
  margin: 0;
+ padding: 0;
 }
 
 
@@ -10,6 +11,7 @@
 body
 {
     background-color: gray;
+    background-position: hide;
 }
 
 div.container
@@ -55,15 +57,6 @@ div.header ul li a:hover
     
 }
 
-img
-{
-    width: 100%;
-    height: 890px;
-    top: 0;
-}
-
-
-
 div.inhoud
 {
 
@@ -73,6 +66,9 @@ div.inhoud h1
 {
     top: 10%;
    right: 40%;
+   font-size: larger;
+   color: black;
+ 
 }
 
 
