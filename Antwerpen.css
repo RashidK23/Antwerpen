@@ -64,11 +64,17 @@ div.inhoud
 
 div.inhoud h1
 {
-    top: 10%;
-   right: 40%;
-   font-size: larger;
-   color: black;
- 
+    width: 90%;
+    color: #111010;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 62px;
+    text-transform: uppercase;
+    text-shadow: 5px 3px 2px rgb(235, 222, 222);
+    
 }
 
 
@@ -85,3 +91,30 @@ div.footer
     border-top: 5px white solid;
 
 }
+
+@media screen and (max-width: 600px )
+{
+
+    div.container
+    {
+        width: 100%;
+        height: auto;
+    }
+    div.header
+    {
+        float: left;
+        width: 33%;
+    }
+    div.inhoud
+    {
+        float: left;
+        width: 33%;
+
+    }
+    div.footer
+    {
+        float: left;
+        width: 33%;
+    }
+}
+    
