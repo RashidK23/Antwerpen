@@ -6,11 +6,9 @@
  padding: 0;
 }
 
-
-
 body
 {
-    background-color: gray;
+    background-color: whitesmoke;
     background-position: hide;
 }
 
@@ -20,6 +18,7 @@ div.container
  
 }
 
+/*---------- navigatie en header---------------------------------------------*/
 div.header
 {
   border-bottom: 5px white solid;
@@ -31,9 +30,7 @@ div.header ul
 {
    background-color: black;
    padding: 8px;
-   text-align: right;
-  
-  
+   text-align: right; 
 }
 
 div.header ul li
@@ -41,14 +38,12 @@ div.header ul li
     display: inline-block;
     padding: 5px;
     margin-right: 10px;
-  
 }
 
 div.header ul li a
 {
     text-decoration: none;
     color: white;
-
 }
 div.header ul li a:hover
 {
@@ -56,11 +51,10 @@ div.header ul li a:hover
     border-bottom:white solid 2px;
     
 }
-
+/*---------- INDEX---------------------------------------------*/
 div.inhoud
 {
    display: flex;
-   
 }
 
 div.inhoud h1
@@ -74,7 +68,15 @@ div.inhoud h1
     text-align: center;
     font-size: 62px;
     text-transform: uppercase;
-    text-shadow: 5px 3px 2px rgb(235, 222, 222);
+    text-shadow: 5px 3px 2px rgb(51, 50, 50);
+    
+}
+div.inhoud h2
+{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     
 }
 div.inhoud > div
@@ -92,15 +94,50 @@ div.inhoud > div
     height: 80px;
     color: white;
     text-align: center;
-   margin-top: 250px;
-   border-top-right-radius: 30px;
-   border-top-left-radius: 30px;
-   border-bottom-left-radius: 30px;
-   border-bottom-right-radius: 30px;
+    margin-top: 290px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 3px 10px gray;
+
+}
+
+#rondje1 p,#rondje2 p,#rondje3 p
+{
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+/*---------- GES---------------------------------------------*/
+div.inhoud1
+{
+    width: 100%;
+}
+.inhoud1 div.links
+{
+    float: left;
+    width: 50%;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+.inhoud1 div.recht
+{
+    float: right;
+    width: 50%;
+    margin-top: 30px;
+    padding-top: 30px;
 
 }
 
 
+
+
+
+
+
+
+/*---------- INDEX---------------------------------------------*/
 
 div.footer
 {
