@@ -137,27 +137,52 @@ div.inhoud1
 .inhoud1 div.links
 {
     float: left;
-    width: 50%;
+    width: 49%;
     margin-top: 30px;
     padding-top: 30px;
+}
+.links
+{
+   padding-right: 1%;
+   text-align: justify;
+}
+.links h2
+{
+    padding-top: 10px;
+    margin-top: 5px;
 }
 .inhoud1 div.recht
 {
     float: right;
-    width: 50%;
+    width: 49%;
     margin-top: 30px;
     padding-top: 30px;
 
 }
+.recht
+{
+    padding-left: 1%;
+    text-align: justify;
+}
+.recht h2
+{
+    padding-top: 10px;
+    margin-top: 5px;
+}
+
+.foto
+{
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border: 2px solid black;
+  height: auto;
+  margin: 10px;
+  margin: 10px;
+ max-width: 100%;
+}
 
 
-
-
-
-
-
-
-/*---------- INDEX---------------------------------------------*/
+/*---------- FOOTER--------------------------------------------*/
 
 div.footer
 {
