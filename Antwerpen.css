@@ -52,6 +52,14 @@ div.header ul li:first-of-type
     margin: 0;
     padding-left: 30px;
 }
+div.header ul li:first-of-type
+{
+    float: left;
+    padding: 0;
+    margin: 0;
+    padding-left: 30px;
+}
+
 div.header ul li a
 {
     text-decoration: none;
